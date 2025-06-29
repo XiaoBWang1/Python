@@ -1,2 +1,1 @@
-# Python
-Python project folder.
+# Python project folder.

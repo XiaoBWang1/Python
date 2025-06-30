@@ -1,10 +1,11 @@
 # Python Lesson 0. Exploring integer, boolean, float, and string.
 # XBW repo
 
-favorite_number = ''
-age_month = {}
-state = True
-favorite_saying = ""
+# int, float, bool, and string
+#favorite_number = ''
+#age_month = {}
+#state = True
+#favorite_saying = ""
 
 # Input function and if/else statement.
 input("What is your favorite number? " + favorite_number)
@@ -16,13 +17,15 @@ else:
     print("Please enter a two digit number.")
 
 # Typecasting
-print(type(state))
+#print(type(state))
 
-length = float(input("Enter the length?"))
-width = float(input("Enter the width?"))
-area = length * width
-print(area)
+# Area calculation of length times width
+#length = float(input("Enter the length?"))
+#width = float(input("Enter the width?"))
+#area = length * width
+#print(area)
 
 # Augmented assignment operators = +=, -=, *=, /=, **=, %=
 # import math
 # Mathematical functions = round(x), abs(x), pow(1, 1), max(x, y), min(x, y, z)
+# Format specifiers {value:flag}

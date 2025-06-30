@@ -1,4 +1,4 @@
-#Logical operator and,or,not
+#Logical operator and,or,not.
 
 # Assign both integer to temperature and Boolean to their respective input
 temperature = 77

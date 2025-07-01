@@ -1,4 +1,4 @@
-# Python Calculator
+# Python Basic Calculator
 
 # Input statement for the operators and 2 numbers for output
 operator = input("Enter an operator(+, -, *, /): ")

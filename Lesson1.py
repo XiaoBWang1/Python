@@ -1,4 +1,4 @@
-# Shopping Cart
+# Shopping Cart Application
 
 # User input with type casting, then the equation for the total
 item = input("What item do you want to buy?: ")

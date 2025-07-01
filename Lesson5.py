@@ -1,10 +1,10 @@
-#Logical operator and,or,not.
+# Logical operator and,or,not.
 
 # Assign both integer to temperature and Boolean to their respective input
 temperature = 77
 sunny = True
 
-#If/elif/else statement with logical operator(and/or/not) to determine output
+# If/elif/else statement with logical operator(and/or/not) to determine output
 if temperature >= 70 and sunny:
     print("It is hot and sunny outside")
 elif temperature <= 50 or sunny:

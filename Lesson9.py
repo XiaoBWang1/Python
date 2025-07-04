@@ -7,7 +7,8 @@ import time
 alarm_time = int(input("Please enter the time(seconds): "))
 
 # for loop with the user input that counts backward toward till the output display. Time decrement by one second
-# with input mod by 60 seconds in a minute and then mod again for 60 minutes in an hour then also with the hour
+# with input mod by 60 seconds in a minute and then mod again for 60 minutes in an hour then also with the hour with
+# 3600 seconds in an hour
 for x in range(alarm_time, 0, -1):
     time.sleep(1)
     seconds = x % 60

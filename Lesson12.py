@@ -3,10 +3,16 @@
 # Create a dictionary of keys of different programming languages with values with its creators
 programmingLanguage = ("Python : Guido Van Rossum","Java : James Gosling","C++ : Bjarne Stroustrup ",
                        "C : Dennis Richie","JavaScript : Brendan Eich", "Golang: The Go Authors",
-                       "Rust : Graydon Hoare", "C : Anders Hejlsberg")
+                       "Rust : Graydon Hoare", "C : Anders Hejlsberg", "R : Ross Ihaka and Robert Gentleman"
+                       , "R : Larry Wall", "SQL : Donald D. Chamberlin and Raymond F. Boyce", "Ada : Dr. Jean Ichbiah"
+                       , "PHP : Rasmus Lerdorf", "Fortran : John Backus", "Pascal: Niklaus Wirth",
+                       "Perl :  Yukihiro Matsumoto", "Swift : Apple")
 
-# Display in format string of the dictionary
-print(f"{programmingLanguage} are some of the most prominent inventors.")
+print()
+
+
+for programmingLanguages in programmingLanguage:
+        print(programmingLanguages)
 
 
 

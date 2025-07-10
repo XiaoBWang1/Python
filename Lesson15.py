@@ -5,7 +5,7 @@
 # match case = switch case/ case _ = wild card case, | = or
 # print(help(module)), import module as variable,
 # variable scope = accessible & visible, scope resolution = LEGB(Local-> Enclosed-> Global -> Built-In)
-# __ double underscore(dunder)/ from module import */ if __name__ == __'main'__ / main()
+# __ double underscore(dunder)/ from module import */ if __name__ == '__main__': / main()
 
 # Basic Banking Application
 
@@ -60,5 +60,8 @@ def main():
             print("That is not a valid input. Try again!")
     print("Have a good day!")
 
-# Call main function
-main()
+# Call main function separately or as a module
+if __name__ == '__main__':
+    main()
+
+

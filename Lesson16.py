@@ -1,5 +1,5 @@
 # Slot Machine Gaming App
-# __ double underscore(dunder)
+
 
 def spin():
     pass
@@ -13,3 +13,5 @@ def lottery():
 def main():
     pass
 
+if __name__ == '__main__':
+    main()

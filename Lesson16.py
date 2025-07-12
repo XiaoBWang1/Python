@@ -1,4 +1,5 @@
 # Slot Machine Gaming App
+# window key + semicolon = emoji
 
 # A function for the output of the slot machine spin
 def spin_result():
@@ -12,7 +13,26 @@ def lottery():
 
 # Main method to encapsulate all the code
 def main():
-    pass
+    print("Welcome to the PySlot! ")
+    credit = 100
+    print("Symbols: 💰 🐉 🐍 ❌")
+
+    while credit > 0:
+        print(f"Present credit: ${credit}")
+        bet = input("Enter the betting amount: $")
+        if not bet.isdigit():
+            print("Please enter a valid number!")
+            continue
+        bet = int(bet)
+        if bet > credit:
+            print("Not enough balance!")
+            continue
+        if bet <= 0 :
+            print("Please enter a valid amount!")
+
+
+        bet -= credit
+
 
 # Dunder main for individual/ separate module
 if __name__ == '__main__':

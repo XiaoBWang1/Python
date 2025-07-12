@@ -1,5 +1,6 @@
 # https://www.youtube.com/@BroCodez
-# Python projects by XBW
+# Python Exercises
+
 import Lesson1
 import Lesson2
 import Lesson3
@@ -15,6 +16,8 @@ import Lesson11
 import Lesson12
 import Lesson13
 import Lesson14
+import Lesson15
+import Lesson16
 
 selection = input("Please enter the lesson number: ")
 

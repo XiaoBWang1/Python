@@ -1,2 +1,2 @@
 # Python
-Basic excercises from easy to hard accordingly to lesson number.
+Basic Python excercises/documentations/notes from easy to hard accordingly to lesson number.

@@ -3,6 +3,7 @@
 import string
 import random
 
+
 # Instantiate a variable consisting of letters, digits, and punctuations from the string library. Then put it in a list
 code = string.ascii_letters + string.digits + string.punctuation
 code = list(code)

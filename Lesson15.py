@@ -1,12 +1,12 @@
-# Positional, default, keyword, arbitrary, * unpacking operator.
-# *args allow multiple non-keyword arguments. **kwargs allows for multiple keyword arguments
-# membership operator (in/not in)
-# list comprehension = [expression / in (value) / in (iterables) / if (condition)]
-# match case = switch case/ case _ = wild card case, | = or
-# print(help(module)), import module as variable,
-# variable scope = accessible & visible, scope resolution = LEGB(Local-> Enclosed-> Global -> Built-In)
-# __ double underscore(dunder)/ from module import */ if __name__ == '__main__': / main()
-
+'''Positional, default, keyword, arbitrary, * unpacking operator.
+*args allow multiple non-keyword arguments. **kwargs allows for multiple keyword arguments
+membership operator (in/not in)
+list comprehension = [expression / in (value) / in (iterables) / if (condition)]
+match case = switch case/ case _ = wild card case, | = or
+print(help(module)), import module as variable,
+variable scope = accessible & visible, scope resolution = LEGB(Local-> Enclosed-> Global -> Built-In)
+__ double underscore(dunder)/ from module import */ if __name__ == '__main__': / main()
+'''
 # Basic Banking Application
 
 # Create a functions for showing the balance of the user's account through an f-string print statement

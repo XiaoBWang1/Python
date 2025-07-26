@@ -30,7 +30,7 @@ def lottery(display, bet):
 def main():
     print("----------------------")
     print("Welcome to the PySlot!")
-    credit = 10
+    credit = 100
     print("Symbols: 💰 🐉 🐍 ❌ ")
     print("----------------------")
 

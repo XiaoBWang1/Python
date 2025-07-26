@@ -1,0 +1,1 @@
+# writing file(.txt, .json, .csv)/ with open as = file mode

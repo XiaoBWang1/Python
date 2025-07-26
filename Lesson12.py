@@ -3,10 +3,10 @@
 # Create a dictionary of keys of different programming languages with values with its creators
 programmingLanguage = ("Python : Guido Van Rossum","Java : James Gosling","C++ : Bjarne Stroustrup ",
                        "C : Dennis Richie","JavaScript : Brendan Eich", "Golang: The Go Authors",
-                       "Rust : Graydon Hoare", "C : Anders Hejlsberg", "R : Ross Ihaka and Robert Gentleman"
-                       , "R : Larry Wall", "SQL : Donald D. Chamberlin and Raymond F. Boyce", "Ada : Dr. Jean Ichbiah"
+                       "Rust : Graydon Hoare", "C# : Anders Hejlsberg", "R : Ross Ihaka and Robert Gentleman"
+                       , "Perl : Larry Wall", "SQL : Donald D. Chamberlin and Raymond F. Boyce", "Ada : Dr. Jean Ichbiah"
                        , "PHP : Rasmus Lerdorf", "Fortran : John Backus", "Pascal: Niklaus Wirth",
-                       "Perl :  Yukihiro Matsumoto", "Swift : Apple")
+                       "Ruby :  Yukihiro Matsumoto", "Swift : Apple")
 
 print()
 

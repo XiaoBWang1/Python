@@ -61,7 +61,7 @@ def main():
     print("Have a good day!")
 
 # Call main function separately or as a module
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
 
 

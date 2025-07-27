@@ -22,7 +22,7 @@ finally:
 import json
 import writer
 
-# JSON file writer/ json.dump
+# JSON file writer/ json.dump/ json.load(read)
 # create a variable to store the data into a json file inside a dictionary.
 """scientist = {
     "Alan Turing" : "Turing Test",
@@ -40,10 +40,11 @@ except FileExistsError:
 
 
 # Comma-separated file writer
+# csv.reader/
 import csv
 
 #scientists = [["Name" ,"Birthyear", "Invention"],["Alan Turing" , 1912, "Turing Test"],["Tim Berners-Lee" , 1955, "WWW"],["Ada Lovelace" , 1815, "Analytical Machine"],["Linus Torvalds" , 1969,  "Linux"]]
-csv_data = [["Month", "Day", "Year"],
+"""csv_data = [["Month", "Day", "Year"],
             ["March", 9, 1990],
             ["January", 23, 1993],
             ["May", 16, 1989]]
@@ -59,7 +60,7 @@ try:
             writer.writerow(row)
         print("The csv file is written.")
 except FileExistsError:
-        print(f"{path} already exists.")
+        print(f"{path} already exists.")"""
 
 
 

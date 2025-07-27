@@ -1,4 +1,4 @@
-''' Python Object-Oriented Programming/ class has attributes(variables) and methods(functions)
+"""" Python Object-Oriented Programming/ class has attributes(variables) and methods(functions)
 __init__ = initialize/self/ . = attribute access operator
 class variables/ instance variable
 multiple/multilevel inheritance
@@ -14,4 +14,4 @@ decorator(@)/ def wrapper(*args, **kwargs)
 exception = try:, except:, finally:
 file detection/ import OS/ file path = relative/absolute(\\,/)/ os.path.exists & isfile & isdir
 writing file(.txt, .json, .csv)/ with open as = file mode
-'''
+"""

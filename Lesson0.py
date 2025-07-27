@@ -1,7 +1,7 @@
 # Python Lesson0. Exploring integer, boolean, float, and string.
 # XBW repo
 
-'''int, float, bool, and string
+"""int, float, bool, and string
 favorite_number = ''
 age_month = {}
 state = True
@@ -29,4 +29,4 @@ Augmented assignment operators = +=, -=, *=, /=, **=, %=
 import math
 Mathematical functions = round(x), abs(x), pow(1, 1), max(x, y), min(x, y, z)
 Format specifiers {value:flag}
-'''
+"""

@@ -71,5 +71,5 @@ def main():
     print(f"Game over! Total amount of credit is ${credit}")
 
 # Dunder main for individual/ separate module
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

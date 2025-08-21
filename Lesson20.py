@@ -21,7 +21,9 @@ def time_set(alarm_time):
     running = True
 
 # While loop with Boolean that sets the current time in a formatted string that displays it
-#
+# initialize the pygame package with the mixer then load the sound file and play it inside a while
+# loop with the get busy Boolean function that plays the alarm sound for a while
+
     while running:
         real_time = datetime.datetime.now().strftime("%H: %M: %S")
         print(real_time)
@@ -32,6 +34,9 @@ def time_set(alarm_time):
             pygame.mixer.init()
             pygame.mixer.music.load(alarm_sound)
             pygame.mixer.music.play()
+
+            while pygame.mixer.music.get_busy:
+                time.sleep(1)
             running = False
 
         time.sleep(1)

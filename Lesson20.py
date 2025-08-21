@@ -26,8 +26,12 @@ def time_set(alarm_time):
         real_time = datetime.datetime.now().strftime("%H: %M: %S")
         print(real_time)
 
-        if real_time == alarm_time:
+        if alarm_time == real_time:
             print("Wake up!")
+
+            pygame.mixer.init()
+            pygame.mixer.music.load(alarm_sound)
+            pygame.mixer.music.play()
             running = False
 
         time.sleep(1)

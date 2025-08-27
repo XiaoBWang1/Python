@@ -1,4 +1,6 @@
 # https://www.youtube.com/@BroCodez
-# Python Exercises
+# Python Exercises/Documentations/Concepts
 
-print("Python is the best programming language!")
+def python():
+    print("Python is the best programming language!")
+python()
